@@ -11,6 +11,14 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -18,95 +26,29 @@
     Crowdfunding Platforms Build sites where users can start and support funding campaigns, featuring progress tracking, secure payments, and user profiles.
     -->
 
-    <!-- section1 -->
+    <!-- main  -->
     <div
-        class=" h-full w-full bg-[url(https://images.unsplash.com/photo-1623141629340-4686d65d60bc?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-center bg-no-repeat bg-cover">
+        class="main h-screen w-screen overflow-x-hidden bg-[url(https://www.studiolegalecoscia.it/wp-content/uploads/2021/07/crowdfunding.jpeg)] bg-cover bg-cover bg-no-repeat">
         <!-- nav -->
-        <div class=" h-24 w-full overflow-hidden bg-[#1b263b] text-white flex justify-between items-center px-16 ">
-            <h2 class="text-3xl sm:text-4xl md:text-4xl">Grow</h2>
-            <div class="md:flex items-center md:gap-8 lg:gap-16 hidden  text-sm sm:text-xl ">
-                <a href="">Home</a>
-                <a href="">Progress</a>
-                <a href="">Payment</a>
-                <a href="">Contact Us</a>
-                <button class="py-2.5 px-7 bg-slate-900 rounded-3xl hover:bg-[#e0e1dd] hover:text-black">Sign
-                    Up</button>
-             
+
+        <div class="overlay h-screen w-screen  bg-[rgba(0,0,0,0.6)]">
+            <div class="nav w-full  py-4 px-16 flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-red-900"><i class="ri-markup-fill text-white"></i>ART</h2>
+                <div
+                    class="nav_links  text-white hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
+                    <a class="" href="#">About</a>
+                    <a class="" href="#">Works</a>
+                    <a class="" href="#">Features</a>
+                    <a class="" href="#">Blog</a>
+                    <a class="" href="#">Contact</a>
+                </div>
+                <i class=" text-white text-xl font-semibold ri-menu-3-fill md:hidden"></i>
             </div>
-            <i class="ri-menu-3-fill md:hidden lg-hidden"></i>
+
         </div>
 
-        <!-- hero_section-->
-        <div class="hero_section  h-2/3 w-2/3 md:w-1/2   m-auto mt-20 text-white flex flex-col items-center justify-center ">
-            <h1 class="md:text-7xl text-5xl text-center">Connecting <span class="text-[#17E2A5]">People</span> <br> and Make Your
-                <span class="text-[#17E2A5]">Invest</span> <br> Comes True
-            </h1>
-            <button class="py-2.5 px-7 bg-slate-900 rounded-3xl hover:bg-[#e0e1dd] hover:text-black mt-8 text-xl">Satrt
-                a Fundraiser</button>
-        </div>
     </div>
 
-    <!-- section2 -->
-    <div class="min-h-screen h-screen w-full p-6 md:p-16 bg-white">
-        <h1 class="text-3xl md:text-5xl font-medium mb-8">Popular Campaigns</h1>
-        <!-- Campaign Container -->
-        <div class="w-full flex flex-wrap justify-between gap-4">
-            <!-- Campaign Box -->
-            <div class="w-full md:w-1/4 flex-grow shrink-0 h-auto">
-                <!-- Image -->
-                <div class="h-48 md:h-3/5 w-full bg-[url(images/bg1.jpeg)] bg-center bg-no-repeat bg-cover rounded-2xl">
-                </div>
-                <!-- Text -->
-                <div class="mt-4">
-                    <h2 class="text-lg md:text-xl my-2">Longevity Beta Tester</h2>
-                    <h3 class="text-base md:text-lg">STARTING AT <samp class="text-xl md:text-2xl">$846</samp></h3>
-                    <p class="my-2 md:my-4 text-sm md:text-base">$2,72,565 RAISED | 46% funded</p>
-                    <p class="text-sm md:text-base">FILM</p>
-                </div>
-            </div>
-            <!-- Repeat Campaign Box -->
-            <div class="w-full md:w-1/4 flex-grow shrink-0 h-auto">
-                <div class="h-48 md:h-3/5 w-full bg-[url(images/bg2.jpeg)] bg-center bg-no-repeat bg-cover rounded-2xl">
-                </div>
-                <div class="mt-4">
-                    <h2 class="text-lg md:text-xl my-2">Longevity Beta Tester</h2>
-                    <h3 class="text-base md:text-lg">STARTING AT <samp class="text-xl md:text-2xl">$846</samp></h3>
-                    <p class="my-2 md:my-4 text-sm md:text-base">$2,72,565 RAISED | 46% funded</p>
-                    <p class="text-sm md:text-base">FILM</p>
-                </div>
-            </div>
-            <div class="w-full md:w-1/4 flex-grow shrink-0 h-auto">
-                <div class="h-48 md:h-3/5 w-full bg-[url(images/bg3.jpeg)] bg-center bg-no-repeat bg-cover rounded-2xl">
-                </div>
-                <div class="mt-4">
-                    <h2 class="text-lg md:text-xl my-2">Longevity Beta Tester</h2>
-                    <h3 class="text-base md:text-lg">STARTING AT <samp class="text-xl md:text-2xl">$846</samp></h3>
-                    <p class="my-2 md:my-4 text-sm md:text-base">$2,72,565 RAISED | 46% funded</p>
-                    <p class="text-sm md:text-base">FILM</p>
-                </div>
-            </div>
-            <div class="w-full md:w-1/4 flex-grow shrink-0 h-auto">
-                <div class="h-48 md:h-3/5 w-full bg-[url(images/bg4.jpeg)] bg-center bg-no-repeat bg-cover rounded-2xl">
-                </div>
-                <div class="mt-4">
-                    <h2 class="text-lg md:text-xl my-2">Longevity Beta Tester</h2>
-                    <h3 class="text-base md:text-lg">STARTING AT <samp class="text-xl md:text-2xl">$846</samp></h3>
-                    <p class="my-2 md:my-4 text-sm md:text-base">$2,72,565 RAISED | 46% funded</p>
-                    <p class="text-sm md:text-base">FILM</p>
-                </div>
-            </div>
-        </div>
-        <!-- Button -->
-        <div class="flex justify-center mt-8">
-            <button
-                class="py-2.5 px-7 bg-slate-900 rounded-3xl hover:bg-gray-200 hover:text-black text-lg md:text-xl text-white">
-                Explore All Campaigns
-            </button>
-        </div>
-    </div>
-    
-
-    
 </body>
 
 </html>
